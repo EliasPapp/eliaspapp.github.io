@@ -1,10 +1,9 @@
 .icon-button.fa {
-  color: silver;
+  color: rgb(221, 221, 221);
   text-decoration: none;
   display: inline-block;
-  padding: 10px;
-  margin: 2px 0;
-  font-size:54px;
+  padding: 0 0.7rem;
+  font-size: 3.5rem;
 }
 
 .icon-button:hover {
@@ -13,6 +12,6 @@
 }
 
 .icon-button:active {
-  color: rgb(150, 150, 150);
+  color: rgb(160, 160, 160);
   transition: 0.2s;
 }

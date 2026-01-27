@@ -1,0 +1,23 @@
+.text-button {
+  background-image: linear-gradient(to bottom, rgb(255, 223, 39), rgb(201, 171, 0));
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 12px 0;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text-button:hover {
+  background-color: rgba(255, 255, 255, 0.55);
+  background-blend-mode: lighten;
+  transition: 0.5s;
+}
+
+.text-button:active {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  transition: 0.2s;
+}
